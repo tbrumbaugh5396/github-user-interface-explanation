@@ -1,0 +1,50 @@
+Github Homepage
+
+HomeIcon Product Dropdown
+
+- Actions
+- Packages
+- Security
+- Codespaces
+- Copilot
+- Code Review
+- Issues
+- Discussion
+
+Explore
+- All Features
+- Documentation
+- Github Skills
+- Blog
+
+Solutions Dropdown For
+- Enterprise
+- Teams
+- Startups
+- Education
+
+By Solution
+- CI/CD & Automation
+- DevOps
+- DevSecOps
+
+Case Studies
+- Customer Stories
+- Resources
+
+OpenSource Dropdown
+GitHub Sponsors
+The ReadMe Project
+
+Repositories
+- Topics
+- Trending
+- Collections
+
+Searchbox Sign in Sign up
+
+Github Copilot
+
+Attempt to Signup
+Ad for codespaces
+Enterprise trial
