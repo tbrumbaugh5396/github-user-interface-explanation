@@ -1,0 +1,152 @@
+What is Github?
+
+Github is a website which is a code hosting platform for version control and collaboration.
+Essentially, the website used to manage different software projects, different versions of the software, and distributing this software.
+Github's name comes from the software version control system (VCS) Git.
+Github provides cloud storage for codebase alongside numerous other capabilities such as a robust developer community. 
+
+-------------------
+
+Sign up:
+
+
+
+-------------------
+
+After login:
+
+Once you login to Github, on the homepage, you can see all of the repositories under the left-hand side of the page under "Top Repositories".
+
+-------------------
+
+Create new repositories:
+
+Once you login to Github, on the homepage, next to "Top Repositories" there is a green icon.
+Clicking it take you to a "Create a new repository" page.
+
+Here you may enter:
+- Repository Name
+- The privacy of the repository
+- Default files to add to the repository (README, .gitignore, and LICENSE)
+
+Then, you can create the repository by pressing the green "Create Repository" button.
+
+-------------------
+
+Setup new repositories:
+
+-------------------
+-------------------
+
+Quick setup — if you’ve done this kind of thing before
+
+On the blank repository page, there is a button "Setup in desktop" which will take you to a page to download a Github desktop application.
+
+Additionally, there are 2 different security protocals to connect to remote Git repositories:
+- ssh
+- https
+
+Get started by creating a new file or uploading an existing file. 
+
+For https (there are corresponding commands using ssh):
+
+We recommend every repository include:
+- README
+- LICENSE
+- .gitignore
+
+-------------------
+-------------------
+
+…or create a new repository using the command line
+echo "# github-commands" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tbrumbaugh5396/github-commands.git
+git push -u origin main
+
+-------------------
+-------------------
+
+…or push an existing repository using the command line
+git remote add origin https://github.com/tbrumbaugh5396/github-commands.git
+git branch -M main
+git push -u origin main
+
+-------------------
+-------------------
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+This can be done by clicking the "Import code" button.
+
+-------------------
+
+Importing code:
+
+Then, on the "Import code" page, you may enter the URL of the repository you want to import the code from.
+This could be something like SVN (https://snv.example.org/code/svn)
+
+The VCSs that are supported are:
+- Git
+- Subversion
+- Mercurial
+- TFS
+
+There is a "Change repository" button, which you can press to change the repository to import the code into. 
+By pressing this button, you will go to a more detailed "Import code" page.
+
+To start importing, press the "Begin import" button.
+
+-------------------
+
+User page:
+
+-------------------
+
+Repository page:
+
+There are numerous different tabs that can be selected:
+- Code
+- Issues
+- Pull requests
+- Actions
+- Projects
+- Wiki
+- Security
+- Insights
+- Settings
+
+-------------------
+
+The "Code" tab allows you to select the branch (like Main for example).
+
+It also shows the number of branches, and the number of branches.
+There is the "Go to file" button, which when clicked take you to a "File search page" to lookup our files.
+There is the "Add file" button, which when clicked gives you options to either:
+- Create new file
+- Upload files
+There is also a green "<> Code" button, which gives you a "Local" option to clone the repository (via HTTPS, SSH, or Github CLI), open with Github Desktop, or to Download the ZIP of the repository.
+Next to it is a "Codespaces" option, which is essentially a online VS Code instance where you can code in a secure, configurable, and dedicated development environment that works how and where you want it to.
+
+Under this, we can see information about the most recent commit (icon and username of who made the commit, the name of the commit, the hash number of the commit, the time of the commit, the total number of commits).
+
+Then, we have a list of all folders and files in the repository. 
+
+If there is no README, there is an "Add a README" button. Otherwise, the markdown of the README will be processed and automatically rendered.
+
+On the right side, there is an "About" tab which includes information like:
+- No description, website, or topics provided.
+- Topics (Activity)
+- Stars
+- Watchers
+- Forks
+
+-------------------
+
+Repository page:
+
+-------------------
